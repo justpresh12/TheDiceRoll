@@ -9,11 +9,6 @@
   display: inline-block;
 }
 
-.rollbutton {
-  position: absolute;
-  left: 47%;
-}
-
 body {
   background-color: #393E46;
 }
@@ -42,6 +37,11 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.rollbutton {
+  position: absolute;
+  left: 47%;
 }
 
 .button-roll {
