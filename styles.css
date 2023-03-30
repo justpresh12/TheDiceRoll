@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   width: 70%;
   margin: auto;
   text-align: center;
@@ -14,21 +15,21 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 8px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  text-shadow: 1.5px 0 #232931;
+  font-size: 2rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 0.5rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+  width: 20%;
 }
 
 footer {
@@ -39,12 +40,10 @@ footer {
 
 }
 
-.rollbutton {
-  position: absolute;
-  left: 47%;
-}
 
 .button-roll {
+  position: absolute;
+  left: 46%;
   appearance: none;
   background-color: #2ea44f;
   border: 1px solid rgba(27, 31, 35, .15);
@@ -87,4 +86,21 @@ footer {
 .button-roll:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  h1{
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  p {
+    font-size: 2rem;
+  }
 }
