@@ -92,7 +92,7 @@ footer {
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .buttondiv {
     text-align: center;
     margin-top: 20px;
