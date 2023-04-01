@@ -86,7 +86,7 @@ footer {
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .buttondiv {
     text-align: center;
     margin-top: 20px;
@@ -103,17 +103,17 @@ footer {
 
   .dice {
     display: inline-block;
-}
+  }
 
-h1 {
-  font-size: 3rem;
-}
+  h1 {
+    font-size: 3rem;
+  }
 
-p {
-  font-size: 1rem;
-}
+  p {
+    font-size: 1rem;
+  }
 
-img {
-  width: 40%;
-}
+  img {
+    width: 40%;
+  }
 }
