@@ -100,10 +100,10 @@ footer {
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   img {
-    width: 60%;
+    width: 40%;
   }
 }
