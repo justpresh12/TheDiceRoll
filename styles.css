@@ -40,6 +40,11 @@ footer {
 
 }
 
+.buttondiv {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .button-roll {
   position: static;
   margin: 0 auto;
@@ -98,7 +103,11 @@ footer {
     margin: 0 auto;
   }
 
-  .dice img {
+  .img1 {
+    width: 45%;
+  }
+
+  .img2 {
     width: 45%;
   }
 
@@ -112,9 +121,5 @@ footer {
 
   p {
     font-size: 1rem;
-  }
-
-  img {
-    width: 40%;
   }
 }
