@@ -42,7 +42,7 @@ footer {
 
 .buttondiv {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .button-roll {
@@ -103,16 +103,9 @@ footer {
     margin: 0 auto;
   }
 
-  .img1 {
-    width: 45%;
-  }
-
-  .img2 {
-    width: 45%;
-  }
-
   .dice {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
   }
 
   h1 {
@@ -121,5 +114,9 @@ footer {
 
   p {
     font-size: 1rem;
+  }
+
+  .img1, .img2 {
+    width: 50%;
   }
 }
